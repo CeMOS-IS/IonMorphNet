@@ -1,0 +1,36 @@
+filename,mz,min_fdr,databases,label
+2025-02-10_16h57m28s.imzML,381.079369417,0.05,"plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,553.368739399,0.05,HMDB v4,structured
+2025-02-10_16h57m28s.imzML,813.495849455,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,381.079217459,0.05,"BraChem + CornCyc 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,603.074526003,0.05,HMDB v4,structured
+2025-02-10_16h57m28s.imzML,553.459116527,0.05,"plant_coconut.DB 1,LipidMaps 2017-12-12,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,569.433053737,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,975.544179881,0.05,"plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,393.037110681,1.0,,fragmented
+2025-02-10_16h57m28s.imzML,513.082588757,0.05,plant_coconut.DB 1,localized
+2025-02-10_16h57m28s.imzML,423.047675365,0.05,"plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",localized
+2025-02-10_16h57m28s.imzML,273.039364411,0.05,plant_coconut.DB 1,structured
+2025-02-10_16h57m28s.imzML,513.079369417,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",localized
+2025-02-10_16h57m28s.imzML,569.366873359,0.05,HMDB v4,structured
+2025-02-10_16h57m28s.imzML,569.362536451,0.05,plant_coconut.DB 1,structured
+2025-02-10_16h57m28s.imzML,813.491356461,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1",structured
+2025-02-10_16h57m28s.imzML,449.047917331,0.05,HMDB v4,structured
+2025-02-10_16h57m28s.imzML,569.435307467,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,633.121476195,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",localized
+2025-02-10_16h57m28s.imzML,569.432901779,0.05,LipidMaps 2017-12-12,structured
+2025-02-10_16h57m28s.imzML,633.121628153,0.05,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",localized
+2025-02-10_16h57m28s.imzML,603.111063469,1.0,,weak_structured
+2025-02-10_16h57m28s.imzML,813.499483419,0.2,plant_coconut.DB 1,structured
+2025-02-10_16h57m28s.imzML,553.388751199,0.2,"plant_coconut.DB 1,HMDB v4",unstructured
+2025-02-10_16h57m28s.imzML,813.486902063,0.2,"plant_coconut.DB 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,569.360282721,0.2,"plant_coconut.DB 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,381.082208631,0.2,"BraChem + CornCyc 1,HMDB v4",structured
+2025-02-10_16h57m28s.imzML,909.529079361,0.2,"plant_coconut.DB 1,BraChem + CornCyc 1",structured
+2025-02-10_16h57m28s.imzML,375.026545997,0.2,"LipidMaps 2017-12-12,plant_coconut.DB 1,HMDB v4",fragmented
+2025-02-10_16h57m28s.imzML,975.535937673,0.2,LipidMaps 2017-12-12,structured
+2025-02-10_16h57m28s.imzML,483.068804733,0.2,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",localized
+2025-02-10_16h57m28s.imzML,615.111063469,0.2,"LipidMaps 2017-12-12,plant_coconut.DB 1,HMDB v4",localized
+2025-02-10_16h57m28s.imzML,495.068804733,1.0,,fragmented
+2025-02-10_16h57m28s.imzML,453.058240049,1.0,,fragmented
+2025-02-10_16h57m28s.imzML,543.089934101,0.2,"LipidMaps 2017-12-12,plant_coconut.DB 1,BraChem + CornCyc 1,HMDB v4",localized

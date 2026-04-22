@@ -1,0 +1,78 @@
+filename,mz,min_fdr,databases,label
+2025-09-24_18h51m29s.imzML,175.118952123,0.05,"HMDB v4,CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,261.086983299,0.05,HMDB v4,structured
+2025-09-24_18h51m29s.imzML,283.068888443,0.05,"HMDB v4,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,734.569431955,0.05,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,229.070664539,0.05,"HMDB v4,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,239.106004661,0.05,HMDB v4,structured
+2025-09-24_18h51m29s.imzML,792.590167399,0.05,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,169.049535171,0.05,"HMDB v4,CoreMetabolome v3,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,187.060099855,0.05,HMDB v4,localized
+2025-09-24_18h51m29s.imzML,289.091793907,0.05,HMDB v4,localized
+2025-09-24_18h51m29s.imzML,543.149702707,0.05,HMDB v4,structured
+2025-09-24_18h51m29s.imzML,184.073321363,0.05,"CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,263.055014475,0.1,"HMDB v4,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,703.574851683,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,877.725598247,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,905.756898375,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,331.102358591,0.1,"HMDB v4,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,810.600732083,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,627.534687155,0.1,SwissLipids 2018-02-02,structured
+2025-09-24_18h51m29s.imzML,302.232584907,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",localized
+2025-09-24_18h51m29s.imzML,806.569431955,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,815.700052195,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,901.725598247,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,903.741248311,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,925.725598247,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,817.610568495,0.1,SwissLipids 2018-02-02,structured
+2025-09-24_18h51m29s.imzML,758.569431955,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,760.585082019,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,949.725598247,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,973.725598247,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,813.684402131,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,786.600732083,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,929.756898375,0.1,SwissLipids 2018-02-02,localized
+2025-09-24_18h51m29s.imzML,711.495932667,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",localized
+2025-09-24_18h51m29s.imzML,663.495932667,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",localized
+2025-09-24_18h51m29s.imzML,788.616382147,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,787.668752067,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,705.590501747,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,834.600732083,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,131.117889503,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,391.284286131,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,762.600732083,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,687.495932667,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",fragmented
+2025-09-24_18h51m29s.imzML,211.060099855,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,288.216934843,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,287.244152635,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",localized
+2025-09-24_18h51m29s.imzML,795.628587539,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",unstructured
+2025-09-24_18h51m29s.imzML,782.569431955,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,268.104030331,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,566.381631187,0.1,"CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,768.590167399,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,496.339766375,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",structured
+2025-09-24_18h51m29s.imzML,689.511582731,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,759.637451939,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,766.574517335,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,154.049869519,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",fragmented
+2025-09-24_18h51m29s.imzML,425.266267087,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",localized
+2025-09-24_18h51m29s.imzML,203.223023267,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,854.569431955,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,784.585082019,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,272.258405731,0.1,"CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,801.684402131,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",fragmented
+2025-09-24_18h51m29s.imzML,816.574911259,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",fragmented
+2025-09-24_18h51m29s.imzML,785.653102003,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,691.527232795,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",unstructured
+2025-09-24_18h51m29s.imzML,748.585082019,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",fragmented
+2025-09-24_18h51m29s.imzML,500.304035765,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,271.081229223,0.1,"HMDB v4,CoreMetabolome v3",localized
+2025-09-24_18h51m29s.imzML,830.569431955,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,524.371066503,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02",weak_structured
+2025-09-24_18h51m29s.imzML,136.061771595,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,768.553781891,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02,KEGG v1",weak_structured
+2025-09-24_18h51m29s.imzML,180.065519583,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,563.265282003,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",fragmented
+2025-09-24_18h51m29s.imzML,295.165233619,0.1,"HMDB v4,CoreMetabolome v3",structured
+2025-09-24_18h51m29s.imzML,132.101905091,0.1,"HMDB v4,CoreMetabolome v3,SwissLipids 2018-02-02,KEGG v1",structured
+2025-09-24_18h51m29s.imzML,156.076752963,0.1,"HMDB v4,CoreMetabolome v3,KEGG v1",structured

@@ -1,0 +1,135 @@
+filename,mz,min_fdr,databases,label
+2023-05-01_09h19m53s.imzML,885.549853281,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,863.565503345,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",structured
+2023-05-01_09h19m53s.imzML,465.304404687,0.05,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1",structured
+2023-05-01_09h19m53s.imzML,309.088080493,0.05,DrugBank 5.1,fragmented
+2023-05-01_09h19m53s.imzML,742.539229021,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,861.549853281,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,766.539229021,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,699.497029861,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,857.518553153,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,835.534203217,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,722.513014273,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,394.086700759,0.05,DrugBank 5.1,structured
+2023-05-01_09h19m53s.imzML,697.481379797,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,723.497029861,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,750.544314401,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,770.570529149,1.0,,structured
+2023-05-01_09h19m53s.imzML,279.232953829,0.05,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,906.634572151,0.05,"LipidMaps 2017-12-12,DrugBank 5.1",unstructured
+2023-05-01_09h19m53s.imzML,725.512679925,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,890.639657531,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",unstructured
+2023-05-01_09h19m53s.imzML,810.529058261,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,687.544648749,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",structured
+2023-05-01_09h19m53s.imzML,281.248603893,0.05,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,673.481379797,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,740.523578957,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,786.529058261,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,744.554879085,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,599.320187701,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,325.184289555,0.05,HMDB v4,fragmented
+2023-05-01_09h19m53s.imzML,849.549853281,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",weak_structured
+2023-05-01_09h19m53s.imzML,833.518553153,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,883.534203217,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,891.596803473,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",weak_structured
+2023-05-01_09h19m53s.imzML,746.513014273,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,794.570529149,1.0,,structured
+2023-05-01_09h19m53s.imzML,671.465729733,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,642.486799525,0.05,SwissLipids 2018-02-02,structured
+2023-05-01_09h19m53s.imzML,419.256799597,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,889.581153409,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,721.481379797,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,293.093165873,0.05,"HMDB v4,DrugBank 5.1",fragmented
+2023-05-01_09h19m53s.imzML,466.307515737,0.05,"HMDB v4,DrugBank 5.1",structured
+2023-05-01_09h19m53s.imzML,788.544708325,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,888.624007467,0.05,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",unstructured
+2023-05-01_09h19m53s.imzML,703.539563369,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",localized
+2023-05-01_09h19m53s.imzML,877.581153409,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",localized
+2023-05-01_09h19m53s.imzML,255.232953829,0.05,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,790.539229021,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,392.071050695,0.05,DrugBank 5.1,structured
+2023-05-01_09h19m53s.imzML,265.147904047,0.05,DrugBank 5.1,localized
+2023-05-01_09h19m53s.imzML,528.273177933,0.1,SwissLipids 2018-02-02,structured
+2023-05-01_09h19m53s.imzML,329.028791233,0.05,"HMDB v4,DrugBank 5.1",fragmented
+2023-05-01_09h19m53s.imzML,701.512679925,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,534.161698933,0.05,LipidMaps 2017-12-12,weak_structured
+2023-05-01_09h19m53s.imzML,749.512679925,1.0,,structured
+2023-05-01_09h19m53s.imzML,309.114570013,0.05,HMDB v4,localized
+2023-05-01_09h19m53s.imzML,658.481714145,0.05,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",localized
+2023-05-01_09h19m53s.imzML,353.199642321,0.1,DrugBank 5.1,fragmented
+2023-05-01_09h19m53s.imzML,834.529058261,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,768.554879085,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,616.471149461,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",structured
+2023-05-01_09h19m53s.imzML,695.465729733,1.0,,structured
+2023-05-01_09h19m53s.imzML,748.528664337,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,311.168639491,0.05,HMDB v4,fragmented
+2023-05-01_09h19m53s.imzML,632.466064081,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",localized
+2023-05-01_09h19m53s.imzML,327.125134697,0.1,DrugBank 5.1,localized
+2023-05-01_09h19m53s.imzML,965.516184173,0.05,"HMDB v4,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,439.379283709,0.05,"HMDB v4,SwissLipids 2018-02-02",unstructured
+2023-05-01_09h19m53s.imzML,271.098919949,0.1,DrugBank 5.1,localized
+2023-05-01_09h19m53s.imzML,328.020332117,0.1,DrugBank 5.1,unstructured
+2023-05-01_09h19m53s.imzML,838.560358389,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,391.225499469,0.05,"HMDB v4,LipidMaps 2017-12-12",structured
+2023-05-01_09h19m53s.imzML,797.654199197,0.1,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",weak_structured
+2023-05-01_09h19m53s.imzML,685.481379797,0.05,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,481.299319307,0.1,LipidMaps 2017-12-12,fragmented
+2023-05-01_09h19m53s.imzML,296.118669583,0.1,DrugBank 5.1,localized
+2023-05-01_09h19m53s.imzML,658.484083125,0.1,HMDB v4,fragmented
+2023-05-01_09h19m53s.imzML,417.241149533,1.0,,structured
+2023-05-01_09h19m53s.imzML,293.179204175,0.1,DrugBank 5.1,fragmented
+2023-05-01_09h19m53s.imzML,292.085140969,0.1,DrugBank 5.1,unstructured
+2023-05-01_09h19m53s.imzML,689.523913305,0.1,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",fragmented
+2023-05-01_09h19m53s.imzML,727.528329989,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,718.539229021,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,747.497029861,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,772.586179213,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,263.060820359,0.1,"HMDB v4,DrugBank 5.1",unstructured
+2023-05-01_09h19m53s.imzML,726.580699909,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,581.309623017,0.1,SwissLipids 2018-02-02,weak_structured
+2023-05-01_09h19m53s.imzML,779.463360753,0.1,LipidMaps 2017-12-12,weak_structured
+2023-05-01_09h19m53s.imzML,367.358154341,0.1,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,687.497029861,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,752.596349973,0.1,"HMDB v4,LipidMaps 2017-12-12",weak_structured
+2023-05-01_09h19m53s.imzML,283.264253957,0.1,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,913.581153409,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,237.043628857,0.1,HMDB v4,structured
+2023-05-01_09h19m53s.imzML,797.469280485,0.1,HMDB v4,unstructured
+2023-05-01_09h19m53s.imzML,764.523578957,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,859.534203217,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,685.483748777,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,237.033936915,0.1,"HMDB v4,DrugBank 5.1",structured
+2023-05-01_09h19m53s.imzML,411.347983581,0.1,"HMDB v4,SwissLipids 2018-02-02",unstructured
+2023-05-01_09h19m53s.imzML,714.507928893,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",localized
+2023-05-01_09h19m53s.imzML,687.499398841,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,987.500534109,0.1,SwissLipids 2018-02-02,unstructured
+2023-05-01_09h19m53s.imzML,313.076470423,0.1,"HMDB v4,DrugBank 5.1",unstructured
+2023-05-01_09h19m53s.imzML,713.512679925,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,779.458715801,0.1,HMDB v4,fragmented
+2023-05-01_09h19m53s.imzML,701.208708701,0.1,HMDB v4,unstructured
+2023-05-01_09h19m53s.imzML,904.618922087,0.1,LipidMaps 2017-12-12,unstructured
+2023-05-01_09h19m53s.imzML,713.515048905,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,872.638608709,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,909.549853281,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,711.497029861,0.1,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",fragmented
+2023-05-01_09h19m53s.imzML,738.507928893,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,415.225499469,0.1,"HMDB v4,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,778.575614529,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,389.071673465,0.1,"HMDB v4,DrugBank 5.1",structured
+2023-05-01_09h19m53s.imzML,792.554879085,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,716.523578957,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,644.466064081,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,553.286565097,0.1,LipidMaps 2017-12-12,unstructured
+2023-05-01_09h19m53s.imzML,646.481714145,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,758.570529149,0.1,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,751.528329989,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,762.507928893,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,870.622958645,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,552.499733189,0.1,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",fragmented
+2023-05-01_09h19m53s.imzML,711.499398841,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,856.680079597,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",unstructured
+2023-05-01_09h19m53s.imzML,303.232953829,0.1,"HMDB v4,LipidMaps 2017-12-12,DrugBank 5.1,SwissLipids 2018-02-02",weak_structured
+2023-05-01_09h19m53s.imzML,774.544314401,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,647.465729733,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented
+2023-05-01_09h19m53s.imzML,875.565503345,0.1,"SwissLipids 2018-02-02,LipidMaps 2017-12-12",fragmented
+2023-05-01_09h19m53s.imzML,783.590930245,0.1,"HMDB v4,LipidMaps 2017-12-12,SwissLipids 2018-02-02",fragmented

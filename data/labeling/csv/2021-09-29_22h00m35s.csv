@@ -1,0 +1,129 @@
+filename,mz,min_fdr,databases,label
+2021-09-29_22h00m35s.imzML,194.045881333,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,311.168639491,0.05,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,325.184289555,0.05,HMDB v4,fragmented
+2021-09-29_22h00m35s.imzML,187.051301061,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,309.114570013,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,255.232953829,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,279.232953829,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,833.518553153,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,177.055717745,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,237.033936915,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,171.056386441,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,153.019332237,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,473.363633645,1.0,,fragmented
+2021-09-29_22h00m35s.imzML,367.215292385,0.05,HMDB v4,unstructured
+2021-09-29_22h00m35s.imzML,356.098704753,0.05,"HMDB v4,BraChem + CornCyc 1",localized
+2021-09-29_22h00m35s.imzML,391.225499469,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,671.465729733,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,179.022406237,0.05,BraChem + CornCyc 1,structured
+2021-09-29_22h00m35s.imzML,183.012138851,0.05,HMDB v4,fragmented
+2021-09-29_22h00m35s.imzML,491.265041805,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,173.072036505,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,143.034982301,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,339.232953829,1.0,,negative
+2021-09-29_22h00m35s.imzML,745.502509165,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,345.135699381,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,189.066951125,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,415.225499469,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,188.035316649,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,283.264253957,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,738.507928893,0.05,"HMDB v4,BraChem + CornCyc 1",weak_structured
+2021-09-29_22h00m35s.imzML,445.332333517,0.05,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,329.066676353,0.05,"HMDB v4,BraChem + CornCyc 1",localized
+2021-09-29_22h00m35s.imzML,301.217303765,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,196.061531397,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,714.507928893,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,695.465729733,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,310.123086267,0.05,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,173.048227061,0.05,BraChem + CornCyc 1,structured
+2021-09-29_22h00m35s.imzML,367.358154341,0.05,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,175.040067681,0.05,"HMDB v4,BraChem + CornCyc 1",localized
+2021-09-29_22h00m35s.imzML,166.050966713,1.0,,weak_structured
+2021-09-29_22h00m35s.imzML,175.024811541,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,306.076529999,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,295.227868449,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,179.056111669,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,224.056446017,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,306.077181461,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,155.061471821,0.05,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,293.093165873,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,210.040795953,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,315.161148423,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,164.035316649,0.05,"HMDB v4,BraChem + CornCyc 1",weak_structured
+2021-09-29_22h00m35s.imzML,258.124800349,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,172.040402029,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,311.082601189,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,174.056052093,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,295.112187235,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,141.019332237,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,369.301033389,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,381.373804405,0.1,HMDB v4,unstructured
+2021-09-29_22h00m35s.imzML,497.166449965,0.1,HMDB v4,unstructured
+2021-09-29_22h00m35s.imzML,465.304404687,0.1,HMDB v4,unstructured
+2021-09-29_22h00m35s.imzML,311.107101855,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,158.061137473,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,259.022442561,0.05,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,287.128882685,0.05,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,162.032242649,0.1,"HMDB v4,BraChem + CornCyc 1",weak_structured
+2021-09-29_22h00m35s.imzML,152.011507205,0.1,BraChem + CornCyc 1,fragmented
+2021-09-29_22h00m35s.imzML,180.030231269,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,281.248603893,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,395.389454469,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,311.222783069,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,635.452842573,0.1,HMDB v4,unstructured
+2021-09-29_22h00m35s.imzML,132.042807333,0.1,BraChem + CornCyc 1,structured
+2021-09-29_22h00m35s.imzML,253.217303765,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,263.082601189,0.1,HMDB v4,structured
+2021-09-29_22h00m35s.imzML,480.309563441,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,415.223845689,0.1,"HMDB v4,BraChem + CornCyc 1",weak_structured
+2021-09-29_22h00m35s.imzML,459.347983581,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,271.227868449,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,766.539229021,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,857.518553153,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,476.278263313,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,267.072155657,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,345.134361989,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,145.061865745,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,421.075265981,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,163.040067681,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,160.040402029,1.0,,fragmented
+2021-09-29_22h00m35s.imzML,199.170353573,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,173.009161477,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,372.093619373,0.1,"HMDB v4,BraChem + CornCyc 1",localized
+2021-09-29_22h00m35s.imzML,431.220414089,0.1,"HMDB v4,BraChem + CornCyc 1",weak_structured
+2021-09-29_22h00m35s.imzML,134.047218725,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,307.098919949,1.0,,negative
+2021-09-29_22h00m35s.imzML,148.040402029,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,277.217303765,0.1,"HMDB v4,BraChem + CornCyc 1",localized
+2021-09-29_22h00m35s.imzML,331.118711925,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,329.139447369,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,233.154703509,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,359.113626545,1.0,,fragmented
+2021-09-29_22h00m35s.imzML,161.024417617,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,409.236064153,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,727.455558973,0.1,BraChem + CornCyc 1,fragmented
+2021-09-29_22h00m35s.imzML,241.011877877,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,311.176501573,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,243.077515809,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,146.045881333,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,191.056111669,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,299.128882685,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,151.040067681,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,353.103061861,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,169.014246857,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,697.481379797,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,157.014246857,1.0,,weak_structured
+2021-09-29_22h00m35s.imzML,168.006421825,0.1,BraChem + CornCyc 1,fragmented
+2021-09-29_22h00m35s.imzML,157.123403381,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,433.236064153,0.1,"HMDB v4,BraChem + CornCyc 1",structured
+2021-09-29_22h00m35s.imzML,742.539229021,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented
+2021-09-29_22h00m35s.imzML,306.088414841,1.0,,weak_structured
+2021-09-29_22h00m35s.imzML,287.103730557,1.0,,weak_structured
+2021-09-29_22h00m35s.imzML,193.050632365,1.0,,weak_structured
+2021-09-29_22h00m35s.imzML,377.124191229,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,299.092497177,0.1,"HMDB v4,BraChem + CornCyc 1",unstructured
+2021-09-29_22h00m35s.imzML,167.035293397,0.1,BraChem + CornCyc 1,unstructured
+2021-09-29_22h00m35s.imzML,355.082326417,1.0,,unstructured
+2021-09-29_22h00m35s.imzML,514.225476217,1.0,,unstructured
+2021-09-29_22h00m35s.imzML,743.486859101,0.1,"HMDB v4,BraChem + CornCyc 1",fragmented

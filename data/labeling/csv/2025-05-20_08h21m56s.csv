@@ -1,0 +1,14 @@
+filename,mz,min_fdr,databases,label
+2025-05-20_08h21m56s.imzML,885.549853281,1.0,,localized
+2025-05-20_08h21m56s.imzML,766.539229021,0.05,"KEGG v1,LipidMaps 2017-12-12,SwissLipids 2018-02-02,HMDB v4",structured
+2025-05-20_08h21m56s.imzML,648.143540769,1.0,,unstructured
+2025-05-20_08h21m56s.imzML,347.039823941,1.0,,weak_structured
+2025-05-20_08h21m56s.imzML,742.539229021,1.0,,structured
+2025-05-20_08h21m56s.imzML,347.038486549,0.05,"KEGG v1,HMDB v4",structured
+2025-05-20_08h21m56s.imzML,338.988773453,1.0,,localized
+2025-05-20_08h21m56s.imzML,613.174688069,0.05,"KEGG v1,HMDB v4",fragmented
+2025-05-20_08h21m56s.imzML,426.022139245,1.0,,localized
+2025-05-20_08h21m56s.imzML,306.076529999,0.05,"KEGG v1,HMDB v4",structured
+2025-05-20_08h21m56s.imzML,306.077181461,0.05,"KEGG v1,HMDB v4",structured
+2025-05-20_08h21m56s.imzML,351.160182813,0.05,"LipidMaps 2017-12-12,KEGG v1",weak_structured
+2025-05-20_08h21m56s.imzML,505.988470137,1.0,,fragmented

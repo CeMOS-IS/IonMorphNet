@@ -1,0 +1,140 @@
+filename,mz,min_fdr,databases,label
+2023-07-05_10h22m57s.imzML,514.281026217,0.05,HMDB v4,structured
+2023-07-05_10h22m57s.imzML,780.591264593,0.05,"LipidMaps 2017-12-12,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,885.549853281,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,514.284397515,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,465.298664409,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,465.298588597,0.05,LipidMaps 2017-12-12,structured
+2023-07-05_10h22m57s.imzML,766.539229021,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,742.539229021,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,579.027009429,0.05,"CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,804.591264593,0.1,LipidMaps 2017-12-12,weak_structured
+2023-07-05_10h22m57s.imzML,718.539229021,1.0,,structured
+2023-07-05_10h22m57s.imzML,687.544648749,0.1,LipidMaps 2017-12-12,structured
+2023-07-05_10h22m57s.imzML,776.559964465,1.0,,structured
+2023-07-05_10h22m57s.imzML,752.559964465,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,790.539229021,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,701.512679925,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,861.549853281,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,794.570529149,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,578.887766129,1.0,,structured
+2023-07-05_10h22m57s.imzML,465.304404687,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,303.232953829,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,552.271524153,0.05,HMDB v4,structured
+2023-07-05_10h22m57s.imzML,283.264253957,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,805.596409549,0.05,"LipidMaps 2017-12-12,HMDB v4",localized
+2023-07-05_10h22m57s.imzML,810.529058261,1.0,,structured
+2023-07-05_10h22m57s.imzML,699.497029861,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,838.560358389,1.0,,structured
+2023-07-05_10h22m57s.imzML,778.575614529,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,770.570529149,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,453.191876865,0.1,"LipidMaps 2017-12-12,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,775.549459357,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,331.264253957,1.0,,structured
+2023-07-05_10h22m57s.imzML,451.177564193,0.1,KEGG v1,structured
+2023-07-05_10h22m57s.imzML,723.497029861,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,788.544708325,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",localized
+2023-07-05_10h22m57s.imzML,774.544314401,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,865.502509165,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,415.223845689,0.1,HMDB v4,structured
+2023-07-05_10h22m57s.imzML,309.114570013,0.1,"KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,777.565109421,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,797.654199197,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,516.281420141,0.1,KEGG v1,weak_structured
+2023-07-05_10h22m57s.imzML,327.232953829,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,426.022139245,0.05,"CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,512.268747451,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,673.481379797,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,750.544314401,1.0,,structured
+2023-07-05_10h22m57s.imzML,744.554879085,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,812.544708325,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,255.232953829,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,279.232953829,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,451.176226801,0.1,"LipidMaps 2017-12-12,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,346.055808353,0.05,"CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,837.549853281,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,756.554879085,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,476.278263313,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,647.465729733,1.0,,structured
+2023-07-05_10h22m57s.imzML,695.465729733,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,857.518553153,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,835.534203217,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,498.289482895,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,606.074293969,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,714.507928893,0.05,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,415.225499469,0.1,HMDB v4,structured
+2023-07-05_10h22m57s.imzML,599.320187701,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,786.529058261,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,762.507928893,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,437.267364281,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,758.606914657,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,671.465729733,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,306.076529999,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,510.253097387,0.1,HMDB v4,localized
+2023-07-05_10h22m57s.imzML,738.507928893,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,295.112187235,0.1,"CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,773.533809293,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,728.523578957,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,436.167591667,0.1,"KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,756.591264593,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,281.248603893,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,834.529058261,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,702.507928893,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,362.050722973,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,792.554879085,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,323.028590561,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,505.988470137,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,716.523578957,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,329.248603893,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,772.528664337,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,462.066766961,1.0,,structured
+2023-07-05_10h22m57s.imzML,836.544708325,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,500.278263313,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,402.994921453,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,727.528329989,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,764.523578957,1.0,,structured
+2023-07-05_10h22m57s.imzML,565.047744873,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,480.309563441,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,571.288887573,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,442.017053865,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,409.236064153,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,347.039823941,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,793.502509165,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,524.272586773,0.1,CoreMetabolome v3,weak_structured
+2023-07-05_10h22m57s.imzML,817.502509165,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,883.534203217,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,730.575614529,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,524.278263313,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,124.007387819,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,305.248603893,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,697.481379797,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,909.549853281,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,746.513014273,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,740.523578957,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,528.309563441,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,780.554879085,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,685.481379797,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,725.512679925,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,799.669849261,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,508.340863569,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,433.236064153,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,768.554879085,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,764.559964465,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",unstructured
+2023-07-05_10h22m57s.imzML,452.278263313,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,478.293913377,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,747.497029861,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,504.309563441,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,301.217303765,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,766.107933807,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,267.073493049,1.0,,weak_structured
+2023-07-05_10h22m57s.imzML,859.534203217,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,611.144686369,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,752.523578957,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,769.502509165,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,468.206147195,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,771.518159229,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,751.528329989,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",structured
+2023-07-05_10h22m57s.imzML,214.048597733,0.1,"CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,747.518159229,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",fragmented
+2023-07-05_10h22m57s.imzML,175.024811541,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,KEGG v1,HMDB v4",weak_structured
+2023-07-05_10h22m57s.imzML,526.293913377,0.1,"LipidMaps 2017-12-12,CoreMetabolome v3,HMDB v4",fragmented

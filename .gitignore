@@ -1,0 +1,10 @@
+data/datasets/
+data/metaspace_cache/
+data/models/
+data/processed/
+data/S3PL_Evaluation/
+data/S3PL_Evaluation_Datasets/
+data/temp/
+ionmorphnet.egg-info/
+.vscode/
+__pycache__/
