@@ -44,24 +44,21 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-<!-- The editable install is recommended for development and local experimentation. -->
-
-### 4. Verify the installation
-
-```bash
-python -c "import msianalyzer; print(msianalyzer.__file__)"
-```
-
-This should print a path inside your cloned `IonMorphNet` repository.
-
 ## Datasets
 
 The package expects MSI datasets in the following structure:
 
 ```text
-data/datasets/<dataset-id>/
-├── <dataset-id>.imzML
-└── <dataset-id>.ibd
+IonMorphNet
+└── data
+    └── datasets
+        ├── <dataset-id-1>
+        │   ├── <dataset-id-1>.imzML
+        │   └── <dataset-id-1>.ibd
+        ├── <dataset-id-2>
+        │   ├── <dataset-id-2>.imzML
+        │   └── <dataset-id-2>.ibd
+        └── ...
 ```
 
 We provide our created morphology labels for each dataset at this path:
@@ -81,7 +78,7 @@ https://metaspace2020.org/dataset/<dataset-id>
 ## Training
 
 Run the following command and specify the validation and test split with
-`--val_files` and `--test_files`. The following split was used for our trainings.
+`--val_files` and `--test_files`. All remaining files will be used for training. The following split was used for our trainings.
 
 ```bash
 python -m msianalyzer.training.train_msi_classifier \
@@ -92,10 +89,10 @@ python -m msianalyzer.training.train_msi_classifier \
 
 ## Evaluation
 
-Make sure to provide the mSCF1 evaluation datasets with corresponding segmentation masks in the following folder structure:
+Make sure to provide the mSCF1 evaluation datasets ([GBM](https://clousi.hs-mannheim.de/index.php/s/gnxRf6fXFQ7faFf), [CAC](https://clousi.hs-mannheim.de/index.php/s/ETC4i3j9QpweAJx)) with corresponding segmentation masks in the following folder structure:
 
 ```text
-├── ionmorphnet
+├── IonMorphNet
     ├── data
         ├── S3PL_Evaluation_Datasets
             ├── dataset1
@@ -119,15 +116,15 @@ Make sure to provide the mSCF1 evaluation datasets with corresponding segmentati
             └── ...
 ```
 
-Peak Picking evaluation using the mSCF1 Score:
+To use our trained ConvNeXt-V2-tiny model, download it from [here](https://clousi.hs-mannheim.de/index.php/s/wdHdDxHasM3ATwX) and extract the zip in the ```IonMorphNet/data/models/``` directory. Then run the Peak Picking evaluation:
 
 ```text
 python -m msianalyzer.evaluate.evaluate_s3pl_peak_quality \
---run-dir <model_folder_name> \
---informative-classes structured,negative,localized \
+--run-dir 20260204-164840_convnextv2_tiny \
+--informative-classes structured,negative,localized
 ```
 
-where --run-dir corresponds to the specific model foldername in ```/data/models/``` that should be used for evaluation. The results will be stored within that folder in `evaluation_s3pl`. To use our trained ConvNeXt-V2-tiny model, download it from [here](https://clousi.hs-mannheim.de/index.php/s/wdHdDxHasM3ATwX) and paste the folder in the ```/data/models/``` directory.
+where --run-dir corresponds to the specific model foldername in ```IonMorphNet/data/models/``` that should be used for evaluation. The results will be stored within that folder in `/evaluation_s3pl/<date-time>/evaluation_results.csv`.
 
 
 ## Application: Classification of all ion images in imzML/ibd file
@@ -135,21 +132,21 @@ where --run-dir corresponds to the specific model foldername in ```/data/models/
 ```text
 python -m msianalyzer.evaluate.classify_ion_images \
 --run-dir <model_folder_name> \
---imzml-folderpath "/path/to/folder/with/imzML/files" \
+--imzml-folderpath "/path/to/folder/with/imzML/files"
 ```
 
-where --run-dir corresponds to the model foldername in /data/models/ that should be used for evaluation. The results will be stored within that folder in `morphology_predictions`. --imzml-folderpath corresponds to the folder that contains the imzML file(s) that should be anaylzed.
+where --run-dir corresponds to the model foldername in ```IonMorphNet/data/models/``` that should be used. The results will be stored within that folder in `/morphology_predictions`. --imzml-folderpath corresponds to the folder that contains the imzML file(s) that should be anaylzed.
 
 ## Troubleshooting
 
 No datasets are found. Verify that:
 
-- dataset files are present under `data/datasets/`
-- each dataset consists of two files:
+- dataset files are located at `IonMorphNet/data/datasets/<dataset-id>/`
+- each dataset directory contains two files:
   - `<dataset-id>.imzML`
   - `<dataset-id>.ibd`
 - the file extension is exactly `.imzML` with the correct capitalization
-- each dataset has a matching CSV file in `data/labeling/csv/
+- each dataset has a matching CSV file in `IonMorphNet/data/labeling/csv/`
 - the CSV filename exactly matches the dataset name
 
 ## Citing

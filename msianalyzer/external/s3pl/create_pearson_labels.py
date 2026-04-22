@@ -4,7 +4,9 @@ Adapted from CeMOS-IS/S3PL (Apache-2.0).
 
 import os
 import numpy as np
+import warnings
 from scipy import stats
+from scipy.stats import ConstantInputWarning
 import math
 import matplotlib.pyplot as plt
 from pyimzml.ImzMLParser import ImzMLParser
@@ -32,48 +34,51 @@ def resolve_mask_path(folderpath: str, dataname: str) -> str:
 
 
 def create_pearson_labels(dataname, folderpath, num_classes):
-    labels_dir = os.path.join(folderpath, "labels")
-    if not os.path.exists(labels_dir):
-        os.mkdir(labels_dir)
 
-    segmentation_classes = list(range(0, num_classes))
-    mask_path = resolve_mask_path(folderpath, dataname).replace("_all_classes", "")
-    mask_orig = np.load(mask_path)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", ConstantInputWarning)
+        labels_dir = os.path.join(folderpath, "labels")
+        if not os.path.exists(labels_dir):
+            os.mkdir(labels_dir)
 
-    p = ImzMLParser(os.path.join(folderpath, dataname + ".imzML"))
-    all_mz, _ = p.getspectrum(0)
+        segmentation_classes = list(range(0, num_classes))
+        mask_path = resolve_mask_path(folderpath, dataname).replace("_all_classes", "")
+        mask_orig = np.load(mask_path)
 
-    all_spectra = []
-    XCoord = []
-    YCoord = []
-    for idx, (x, y, z) in enumerate(p.coordinates):
-        mzs, intensities = p.getspectrum(idx)
-        all_spectra.append(intensities)
-        XCoord.append(x)
-        YCoord.append(y)
+        p = ImzMLParser(os.path.join(folderpath, dataname + ".imzML"))
+        all_mz, _ = p.getspectrum(0)
 
-    for class_number in segmentation_classes:
-        mask = np.where(mask_orig == class_number, 1, 0)
+        all_spectra = []
+        XCoord = []
+        YCoord = []
+        for idx, (x, y, z) in enumerate(p.coordinates):
+            mzs, intensities = p.getspectrum(idx)
+            all_spectra.append(intensities)
+            XCoord.append(x)
+            YCoord.append(y)
 
-        all_spectra = np.array(all_spectra)
-        mask_flattened = []
-        for i in range(len(XCoord)):
-            mask_flattened.append(mask[YCoord[i] - 1, XCoord[i] - 1])
+        for class_number in segmentation_classes:
+            mask = np.where(mask_orig == class_number, 1, 0)
 
-        pearson_correlations = []
-        for idx, mz in enumerate(all_mz):
-            ion_image = all_spectra[:, idx]
-            pearson_corr = stats.pearsonr(mask_flattened, ion_image).correlation
+            all_spectra = np.array(all_spectra)
+            mask_flattened = []
+            for i in range(len(XCoord)):
+                mask_flattened.append(mask[YCoord[i] - 1, XCoord[i] - 1])
 
-            if math.isnan(pearson_corr):
-                pearson_correlations.append(0)
-            else:
-                pearson_correlations.append(pearson_corr)
+            pearson_correlations = []
+            for idx, mz in enumerate(all_mz):
+                ion_image = all_spectra[:, idx]
+                pearson_corr = stats.pearsonr(mask_flattened, ion_image).correlation
 
-        ranking = np.argsort(pearson_correlations)[::-1]
-        mz_values = [all_mz[rank] for rank in ranking]
-        pearson_correlations = [pearson_correlations[rank] for rank in ranking]
+                if math.isnan(pearson_corr):
+                    pearson_correlations.append(0)
+                else:
+                    pearson_correlations.append(pearson_corr)
 
-        np.save(os.path.join(labels_dir, dataname + "_class" + str(class_number) + "_ranking.npy"), ranking)
-        np.save(os.path.join(labels_dir, dataname + "_class" + str(class_number) + "_mz_ranking.npy"), mz_values)
-        np.save(os.path.join(labels_dir, dataname + "_class" + str(class_number) + "_pearson_ranking.npy"), pearson_correlations)
+            ranking = np.argsort(pearson_correlations)[::-1]
+            mz_values = [all_mz[rank] for rank in ranking]
+            pearson_correlations = [pearson_correlations[rank] for rank in ranking]
+
+            np.save(os.path.join(labels_dir, dataname + "_class" + str(class_number) + "_ranking.npy"), ranking)
+            np.save(os.path.join(labels_dir, dataname + "_class" + str(class_number) + "_mz_ranking.npy"), mz_values)
+            np.save(os.path.join(labels_dir, dataname + "_class" + str(class_number) + "_pearson_ranking.npy"), pearson_correlations)

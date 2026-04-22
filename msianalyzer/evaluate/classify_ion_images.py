@@ -8,6 +8,7 @@ import sys
 import json
 import itertools
 import time
+import warnings
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -236,7 +237,9 @@ def instantiate_model(meta: Dict, num_classes: int, device: torch.device, traini
     drop_path = float(args_block.get("Path Dropout Rate", 0.0))
     weight_dropout = float(args_block.get("Weight dropout", 0.0))
     output_dim = REGRESSION_TARGET_DIM if training_type == "regression" else num_classes
-    model = timm.create_model(arch, pretrained=pretrained, in_chans=1, num_classes=output_dim, drop_path_rate=drop_path)
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", message=".*unauthenticated.*")
+        model = timm.create_model(arch, pretrained=pretrained, in_chans=1, num_classes=output_dim, drop_path_rate=drop_path)
     model.to(device)
     return model, weight_dropout
 

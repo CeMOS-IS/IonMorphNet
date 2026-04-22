@@ -450,7 +450,7 @@ def process_metaspace_dataset(dataset_id: str, use_cache: bool = True) -> Option
             print(f"Could not extract ppm from config: {e}")
     
     if ppm is None:
-        print("Warning: No ppm found in dataset config. Using default ppm=3.")
+        #print("Warning: No ppm found in dataset config. Using default ppm=3.")
         ppm = 3
     merged_data['_ppm'] = ppm
 
@@ -487,7 +487,8 @@ def get_ppm_from_cache_only(dataset_id: str) -> Optional[float]:
             if 'config' in data and 'image_generation' in data['config'] and 'ppm' in data['config']['image_generation']:
                 return data['config']['image_generation']['ppm']
     else:
-        print(f"Cache not found for dataset {dataset_id}, set to standard 3 ppm\nSearched {cache_path}")
+        pass
+        #print(f"Cache not found for dataset {dataset_id}, set to standard 3 ppm\nSearched {cache_path}")
     return 3
 
 def save_to_csv(merged_data, output_file='metaspace_merged_annotations.csv') -> pd.DataFrame:

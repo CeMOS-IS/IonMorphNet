@@ -8,6 +8,7 @@ import sys
 import json
 import itertools
 import time
+import warnings
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -188,7 +189,7 @@ def parse_args() -> argparse.Namespace:
                         help="Cube source: auto uses cached cubes if available; dense builds/uses SpectralCube; "
                              "targeted builds/uses TargetedSpectralCube; imzml reads directly (no cube building).")
     parser.add_argument("--run-sota", action="store_true", default=True,
-                        help="After evaluation, generate SOTA comparison plot using dataset_metrics.csv.")
+                        help="After evaluation, generate SOTA comparison plot using evaluation_results.csv.")
     parser.add_argument("--regression-score-mode", type=str, default="raw", choices=["prob", "raw"],
                         help="Scoring mode for regression checkpoints: 'prob' (distance softmax) or 'raw' (use regression outputs dim0/1).")
     parser.add_argument("--rank-by", type=str, default="informative",
@@ -240,7 +241,9 @@ def instantiate_model(meta: Dict, num_classes: int, device: torch.device, traini
     drop_path = float(args_block.get("Path Dropout Rate", 0.0))
     weight_dropout = float(args_block.get("Weight dropout", 0.0))
     output_dim = REGRESSION_TARGET_DIM if training_type == "regression" else num_classes
-    model = timm.create_model(arch, pretrained=pretrained, in_chans=1, num_classes=output_dim, drop_path_rate=drop_path)
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", message=".*unauthenticated.*")
+        model = timm.create_model(arch, pretrained=pretrained, in_chans=1, num_classes=output_dim, drop_path_rate=drop_path)
     model.to(device)
     return model, weight_dropout
 
@@ -622,7 +625,7 @@ def generate_sota_plot(metrics_csv: Path, out_dir: Path) -> Optional[Path]:
         ours_map, max_map = sota_comparison.load_ours_scores_with_max(metrics_csv)
         sota_comparison.update_with_ours(ours_map)
     except Exception as e:
-        print(f"⚠️  Skipping SOTA comparison plot: {e}")
+        print("SOTA comparison plot will only be created when GBM, RCC and CAC datasets are used for evaluation.")
         return None
 
     import matplotlib
@@ -1175,7 +1178,7 @@ def main():
                     "best_mixed_F1": summary.get("best_mixed_F1"),
                 })
 
-            dataset_metrics_csv = split_dir / "dataset_metrics.csv"
+            dataset_metrics_csv = split_dir / "evaluation_results.csv"
             s3pl_baseline = load_s3pl_baseline(Path("data/S3PL_Evaluation_Weigand/evaluation_data/mSCF1_method_table.csv"))
             baseline_all = None
             if s3pl_baseline:
@@ -1183,7 +1186,7 @@ def main():
                 if baseline_vals:
                     baseline_all = float(np.mean(baseline_vals))
             with open(dataset_metrics_csv, "w") as f:
-                f.write("dataset,group,mSCF1,max_mSCF1,best_mixed_F1,delta_vs_s3pl\n")
+                f.write("filename,dataset,mSCF1\n")
                 for row in dataset_rows:
                     mscf1 = row["mSCF1"]
                     max_mscf1 = row.get("max_mSCF1")
@@ -1191,7 +1194,7 @@ def main():
                     mscf1_str = "" if mscf1 is None else f"{mscf1:.6f}"
                     max_mscf1_str = "" if max_mscf1 is None else f"{max_mscf1:.6f}"
                     best_mixed_str = "" if best_mixed is None else f"{best_mixed:.6f}"
-                    f.write(f"{row['dataset']},{row['group']},{mscf1_str},{max_mscf1_str},{best_mixed_str},\n")
+                    f.write(f"{row['dataset']},{row['group']},{mscf1_str},\n")
                 if dataset_rows:
                     valid_mscf1 = [row["mSCF1"] for row in dataset_rows if row["mSCF1"] is not None]
                     valid_best = [row["best_mixed_F1"] for row in dataset_rows if row["best_mixed_F1"] is not None]
@@ -1203,7 +1206,7 @@ def main():
                     mean_best_str = "" if mean_best is None else f"{mean_best:.6f}"
                     mean_max_str = "" if mean_max is None else f"{mean_max:.6f}"
                     delta_all = "" if (mean_mscf1 is None or baseline_all is None) else f"{mean_mscf1 - baseline_all:.6f}"
-                    f.write(f"__mean__,all,{mean_mscf1_str},{mean_max_str},{mean_best_str},{delta_all}\n")
+                    f.write(f"mean,all,{mean_mscf1_str},\n")
                     groups = sorted({row["group"] for row in dataset_rows})
                     for group in groups:
                         group_rows = [r for r in dataset_rows if r["group"] == group]
@@ -1218,7 +1221,7 @@ def main():
                         g_max_str = "" if g_mean_max is None else f"{g_mean_max:.6f}"
                         baseline = s3pl_baseline.get(group) if s3pl_baseline else None
                         delta = "" if (g_mean_mscf1 is None or baseline is None) else f"{g_mean_mscf1 - baseline:.6f}"
-                        f.write(f"__mean__,{group},{g_mscf1_str},{g_max_str},{g_best_str},{delta}\n")
+                        f.write(f"mean,{group},{g_mscf1_str},\n")
             if args.run_sota:
                 generate_sota_plot(dataset_metrics_csv, split_dir)
 

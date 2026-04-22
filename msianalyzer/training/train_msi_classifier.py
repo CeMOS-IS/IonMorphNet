@@ -5,6 +5,7 @@ import json
 import os
 import signal
 import sys
+import warnings
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -779,13 +780,15 @@ print(f"✅ Total ion images: {len(full_ds)} from {len(wrapped_datasets)} datase
 # --------------------- Model & training ---------------------
 NUM_CLASSES = len(CLASSES)
 
-model = timm.create_model(
-    CLASSIFIER_MODEL,
-    pretrained=PRETRAINED,
-    in_chans=1,
-    num_classes=NUM_CLASSES,
-    drop_path_rate=args.drop_path_rate,
-).to(device)
+with warnings.catch_warnings():
+    warnings.filterwarnings("ignore", message=".*unauthenticated.*")
+    model = timm.create_model(
+        CLASSIFIER_MODEL,
+        pretrained=PRETRAINED,
+        in_chans=1,
+        num_classes=NUM_CLASSES,
+        drop_path_rate=args.drop_path_rate,
+    ).to(device)
 # Optional DropConnect regularisation on weights
 if args.weight_dropout > 0:
     print(f"Applying weight dropout p={args.weight_dropout:.3f} to convolutional and linear layers")

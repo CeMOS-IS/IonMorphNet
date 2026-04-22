@@ -214,8 +214,8 @@ class IonImageCache:
         # Extract and cache all images
         self._arr[0, :, :] = img0.astype(self.dtype, copy=False)
         for i, mz in enumerate(self.mz_list[1:], start=1):
-            if i % 10 == 0:
-                print(f"  Caching image {i+1}/{N} (m/z: {mz:.6f})")
+            # if i % 10 == 0:
+            #     print(f"  Caching image {i+1}/{N} (m/z: {mz:.6f})")
             img = msi_utils.extract_ion_image(
                 self.reader, mz, self.ppm,
                 hotspot_removal=True, **self.extract_kwargs
