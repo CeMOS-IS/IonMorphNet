@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Evaluate MSI classifier peak rankings using the S3PL correlation-based metrics.
+Evaluate MSI classifier peak rankings using the correlation-based metric mSCF1 from the paper 
+"Spatial self-supervised Peak Learning and correlation-based Evaluation of peak picking in Mass Spectrometry Imaging".
 """
 
 import argparse
@@ -151,10 +152,10 @@ def model_has_weightdrop(module: nn.Module) -> bool:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Run S3PL-style evaluation for classifier peak rankings.")
+    parser = argparse.ArgumentParser(description="Run mSCF1 evaluation for picked peaks.")
     parser.add_argument("--run-dir", type=Path, required=True, help="Training run directory (or name under data/models).")
     parser.add_argument("--checkpoint", type=str, default="best_model.pt", help="Checkpoint filename inside run directory.")
-    parser.add_argument("--data-root", type=Path, default="data/S3PL_Evaluation_Datasets", help="Root folder containing S3PL evaluation datasets.")
+    parser.add_argument("--data-root", type=Path, default="data/mSCF1_Evaluation_Datasets", help="Root folder containing evaluation datasets from S3PL paper.")
     parser.add_argument("--groups", type=str, nargs="*", default=None, help="Subset of subfolders (e.g. gbm cac). Defaults to all.")
     parser.add_argument("--top-peaks", type=int, default=None, help="Number of peaks to keep per dataset. Defaults to S3PL config.")
     parser.add_argument("--informative-classes", type=str, default=None, help="Comma-separated class names considered informative.")
@@ -951,7 +952,7 @@ def main():
         imzml_files = collect_imzml_files(msianalyzer_dir / args.data_root, args.groups)
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    out_dir = args.output_dir or (run_dir / "evaluation_s3pl" / timestamp)
+    out_dir = args.output_dir or (run_dir / "evaluation_mSCF1" / timestamp)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     cubes = {}
@@ -1307,7 +1308,7 @@ def main():
                 print(f"Sweep complete. Best split by mean mixed F1: {best_info} -> {best_val}")
             print(f"Sweep summary saved to {summary_path}")
         else:
-            print(f"S3PL evaluation written to {out_dir}")
+            print(f"mSCF1 evaluation written to {out_dir}")
     finally:
         for cube in cubes.values():
             if hasattr(cube, "close"):
@@ -1317,30 +1318,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""
-Run example:
 
-python scripts/evaluate_s3pl_peak_quality.py \
-  --run-dir data/models/20251014-142231_resnet50_full_hard_dpr-0.0_wd-0.0_aug-default_cosine_pretrained-1_cuda \
-  --data-root data/S3PL_Evaluation_Weigand \
-  --groups gbm renal_cell_carcinoma \
-  --informative-classes structured,weak_structured,localized,negative \
-  --top-peaks 500 \
-  --device cuda
-
-python scripts/evaluate_s3pl_peak_quality.py \
-  --run-dir data/models/20251014-142231_resnet50_full_hard_dpr-0.0_wd-0.0_aug-default_cosine_pretrained-1_cuda \
-  --data-root data/S3PL_Evaluation_Weigand \
-  --groups gbm \
-  --top-peaks 500 \
-  --sweep-informative
-
-python msianalyzer/evaluate/evaluate_s3pl_peak_quality.py \
-  --run-dir data/models/.../your_regression_run \
-  --structure-threshold 0.7 \
-  --informativeness-threshold 0.5 \
-  --data-root <S3PL_data_root>
-
-"""
 def model_has_weightdrop(module: nn.Module) -> bool:
     return any(isinstance(child, WeightDrop) for child in module.modules())

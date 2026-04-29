@@ -2,7 +2,7 @@
 
 [![arxiv.org](https://img.shields.io/badge/cs.CV-arXiv%3A2408.14131-B31B1B.svg)](https://arxiv.org/abs/2604.19369)
 [![cite-bibtex](https://img.shields.io/badge/Cite-BibTeX-1f425f.svg)](#citing)
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 
 Official repository of the CVPR 2026 Workshop paper "IonMorphNet: Generalizable Learning of Ion Image Morphologies for Peak Picking in Mass Spectrometry Imaging".
@@ -15,10 +15,6 @@ Official repository of the CVPR 2026 Workshop paper "IonMorphNet: Generalizable 
   <img  src="figure/ionmorphnet_teaser.png" width="500"/>
   <div>&nbsp;</div>    
 </div>
-
-<!-- IonMorphNet is a toolkit for **Mass Spectrometry Imaging (MSI)** ion-image analysis, morphology labeling, classifier training, and **S3PL (Spatial self-supervised Peak Learning)**-style peak ranking evaluation.
-
-The project focuses on learning whether MSI ion images are morphologically informative, for example whether they are **structured** or **unstructured**, and then using these predictions for downstream peak prioritization. -->
 
 
 ## Installation
@@ -94,7 +90,7 @@ Make sure to provide the mSCF1 evaluation datasets ([GBM](https://clousi.hs-mann
 ```text
 ├── IonMorphNet
     ├── data
-        ├── S3PL_Evaluation_Datasets
+        ├── mSCF1_Evaluation_Datasets
             ├── dataset1
             │   ├── masks
             │   │   ├── file1_mask.npy
@@ -119,12 +115,12 @@ Make sure to provide the mSCF1 evaluation datasets ([GBM](https://clousi.hs-mann
 To use our trained ConvNeXt-V2-tiny model, download it from [here](https://clousi.hs-mannheim.de/index.php/s/wdHdDxHasM3ATwX) and extract the zip in the ```IonMorphNet/data/models/``` directory. Then run the Peak Picking evaluation:
 
 ```text
-python -m msianalyzer.evaluate.evaluate_s3pl_peak_quality \
+python -m msianalyzer.evaluate.evaluate_mSCF1_peak_quality \
 --run-dir 20260204-164840_convnextv2_tiny \
 --informative-classes structured,negative,localized
 ```
 
-where --run-dir corresponds to the specific model foldername in ```IonMorphNet/data/models/``` that should be used for evaluation. The results will be stored within that folder in `/evaluation_s3pl/<date-time>/evaluation_results.csv`.
+where --run-dir corresponds to the specific model foldername in ```IonMorphNet/data/models/``` that should be used for evaluation. The results will be stored within that folder in `/evaluation_mSCF1/<date-time>/evaluation_results.csv`.
 
 
 ## Application: Classification of all ion images in imzML/ibd file
@@ -151,7 +147,7 @@ No datasets are found. Verify that:
 
 ## Citing
 
-If you use this code in academic work, cite the associated thesis, manuscript, or repository release.
+If you use this code in your research, please cite our paper.
 
 ```bibtex
 @inproceedings{weigand2026ionmorphnet,
@@ -161,12 +157,3 @@ If you use this code in academic work, cite the associated thesis, manuscript, o
   year={2026}
 }
 ```
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
