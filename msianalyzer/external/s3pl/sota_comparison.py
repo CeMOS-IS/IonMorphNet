@@ -65,16 +65,16 @@ def parse_args():
 
 
 def load_ours_scores(csv_path: Path) -> Dict[str, float]:
-    df = pd.read_csv(csv_path)
-    if "dataset" not in df.columns or "mSCF1" not in df.columns:
-        raise ValueError(f"{csv_path} must contain 'dataset' and 'mSCF1' columns.")
+    df = pd.read_csv(csv_path, index_col=False)
+    if "filename" not in df.columns or "mSCF1" not in df.columns:
+        raise ValueError(f"{csv_path} must contain 'filename' and 'mSCF1' columns.")
     alias = {
         "GBM108_positive": "GBM108_pos",
         "GBM108_negative": "GBM108_neg",
     }
     mapping = {}
     for _, row in df.iterrows():
-        key = str(row["dataset"])
+        key = str(row["filename"])
         key = alias.get(key, key)
         mapping[key] = float(row["mSCF1"])
     missing = OURS_ORDER - mapping.keys()
@@ -84,9 +84,9 @@ def load_ours_scores(csv_path: Path) -> Dict[str, float]:
 
 
 def load_ours_scores_with_max(csv_path: Path) -> Tuple[Dict[str, float], Dict[str, float]]:
-    df = pd.read_csv(csv_path)
-    if "dataset" not in df.columns or "mSCF1" not in df.columns:
-        raise ValueError(f"{csv_path} must contain 'dataset' and 'mSCF1' columns.")
+    df = pd.read_csv(csv_path, index_col=False)
+    if "filename" not in df.columns or "mSCF1" not in df.columns:
+        raise ValueError(f"{csv_path} must contain 'filename' and 'mSCF1' columns.")
     alias = {
         "GBM108_positive": "GBM108_pos",
         "GBM108_negative": "GBM108_neg",
@@ -95,7 +95,7 @@ def load_ours_scores_with_max(csv_path: Path) -> Tuple[Dict[str, float], Dict[st
     max_mapping: Dict[str, float] = {}
     has_max = "max_mSCF1" in df.columns
     for _, row in df.iterrows():
-        key = str(row["dataset"])
+        key = str(row["filename"])
         key = alias.get(key, key)
         mapping[key] = float(row["mSCF1"])
         if has_max:

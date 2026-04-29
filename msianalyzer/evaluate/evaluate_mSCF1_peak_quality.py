@@ -1316,6 +1316,9 @@ def main():
 
 
 if __name__ == "__main__":
+    # split_dir = Path("/home/weigand/Documents/Doktorarbeit/Code/test_gitlab_code/IonMorphNet/data/models/20260204-164840_convnextv2_tiny/evaluation_mSCF1/20260429-140816")
+    # dataset_metrics_csv = split_dir / "evaluation_results.csv"
+    # generate_sota_plot(dataset_metrics_csv, split_dir)
     main()
 
 

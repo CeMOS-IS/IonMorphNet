@@ -4,6 +4,7 @@ data/models/*
 data/processed/
 data/S3PL_Evaluation/
 data/S3PL_Evaluation_Datasets/
+data/mSCF1_Evaluation_Datasets/
 data/temp/
 ionmorphnet.egg-info/
 .vscode/
