@@ -153,7 +153,8 @@ If you use this code in your research, please cite our paper.
 @inproceedings{weigand2026ionmorphnet,
   title={IonMorphNet: Generalizable Learning of Ion Image Morphologies for Peak Picking in Mass Spectrometry Imaging},
   author={Weigand, Philipp and Nawrot, Niels and Ebert, Nikolas and Hopf, Carsten and Wasenm{\"u}ller, Oliver},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6438--6447},
   year={2026}
 }
 ```
